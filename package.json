@@ -1,13 +1,23 @@
 {
   "name": "await-poll",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Simple long polling with async/await.",
+  "main": "lib/index.js",
   "author": "jakub.koci@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakubkoci/await-poll"
+  },
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rm -rf lib && yarn babel src --out-dir lib --presets=@babel/env --ignore 'src/**/*.test.js'"
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
     "jest": "^24.9.0"
