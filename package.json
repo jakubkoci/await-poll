@@ -1,0 +1,16 @@
+{
+  "name": "await-poll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jakub.koci@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {}
+}
