@@ -1,6 +1,6 @@
 {
   "name": "await-poll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple long polling with async/await.",
   "main": "lib/index.js",
   "author": "jakub.koci@gmail.com",
