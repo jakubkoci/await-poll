@@ -20,9 +20,10 @@
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
-    "core-js": "^3.4.1",
-    "jest": "^24.9.0",
-    "regenerator-runtime": "^0.13.3"
+    "jest": "^24.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "core-js": "^3.4.1",
+    "regenerator-runtime": "^0.13.3"
+  }
 }
