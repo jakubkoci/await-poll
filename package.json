@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "test": "jest",
-    "build": "rm -rf lib && yarn babel src --out-dir lib --presets=@babel/env --ignore 'src/**/*.test.js'"
+    "build": "rm -rf lib && yarn babel src --out-dir lib --presets=@babel/env --ignore 'src/**/*.test.js'",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
